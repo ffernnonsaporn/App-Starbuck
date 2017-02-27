@@ -1,0 +1,190 @@
+body{
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-color: #222;
+	font-family: 'GothamRounded-Medium';
+}
+a{
+	text-decoration: none;
+}
+button{
+  outline: none;
+  border: 0;
+}
+
+#boxes div{
+  width:100px;
+  height:100px;
+  background:#ddd;
+  margin:0 auto 1rem;
+}
+.cards{
+		width: 90%;
+		height: 170px;
+		border-radius: 10px;
+		margin: 120px 5px;
+		cursor: pointer;
+		/*background-color: #fff;*/
+	    margin-top: 150px;
+	    margin-left: 15px;
+	    margin-bottom: 20px;
+	    margin-right: 15px;
+
+   
+
+
+	}
+	.cards img{
+		width: 90%;
+		height: 180px;
+	}
+	.cards:before,
+	.cards:after {
+		width: 100%;
+  		height: 100%;
+  		text-align: center;
+  		transition: all 320ms linear;
+	}
+	
+
+	.container-fluid{
+		height: 70px;
+		padding-top: 14px;
+		background: linear-gradient(#55a11d,#2a7f10);
+		box-sizing: border-box;
+		color: #fff;
+		font-size: 20px;
+	}
+	.header-text{
+		color: #fff;
+		font-size: 20px;
+	}
+	.contain-reward{
+		background: linear-gradient(#242f1d,#2c3923,#38492d);
+		height: 120px;
+		margin-top: 14px;
+		padding-top: 10px;
+		font-size: 12px;
+		box-sizing: border-box;
+		padding-left: : 10px;
+		color: #fff;
+	}
+	.contain-left{
+		width: 65%;
+		height: auto;
+		float: left;
+		padding-left: 6%;
+	}
+	.contain-left span.span1{
+		color: #588b31;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.contain-left span.span2{
+		color: #588b31;
+		font-weight: bold;
+		font-size: 28px;
+	}
+	#reward{
+		width: 90px;
+		height: 40px;
+		color: #fff;
+		font-weight: bold;
+		border: 0;
+		margin: 32px 20px 0 0; 
+		background: linear-gradient(#676767,#606060,#565656);
+		float: right;
+		border-radius: 4px;
+		
+
+	}
+	.contain-button{
+		text-align: center;
+		height: auto;
+    	margin-top: 110px;
+
+	}
+	#manage{
+		height: 40px;
+		width: 105px;
+		
+		color: #fff;
+		font-size: 16px;
+		background: #588b31;
+		margin-right: 20px;
+		border-radius: 3px;
+		background: linear-gradient(#676767,#606060,#565656);
+	}
+	#addbutton{
+		height: 40px;
+		width: 105px;
+		font-size: 16px;
+		color: #fff;
+		
+		border-radius: 3px;
+		background: linear-gradient(#676767,#606060,#565656);
+	}
+	#add-Card{
+		width: 130px;
+		height: 35px;
+		color: #fff;
+		border: 0;
+		background-color: #666;
+	}
+	#box-text{
+		float: left;
+		height: auto;
+		margin-left: 15px;
+		margin-top: 40px;
+
+		
+	}
+	#box-text-1{
+		float: left;
+		margin-left: 15px;
+		color: #fff;
+		font-size: 20px;
+	    margin-top: 20px;
+	    margin-left: 25px;
+
+
+	}
+	#box-text-3{
+		font-size: 10px;
+		color: #fff;
+	}
+	#box-text-2{
+		float: right;
+		color: #69a93f;
+		font-size: 16px;
+		
+	}
+	#box-text-4{
+		float: right;
+		font-size: 13px;
+		color: #69a93f;
+		margin-left: -70px;
+		margin-top: 20px;
+	    margin-top: 20px;
+	    
+
+   		 margin-right: 60px;
+
+	    
+	}
+	.circle {
+	width: 100px;
+	height: 100px;
+	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	float: right;
+	margin-top: -75px;
+}
+.circle img{
+	width: 100px;
+	height: 100px;
+}
